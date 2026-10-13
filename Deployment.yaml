@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: clock-application
-          image: devop93/my-clock-app:v1
+          image: devop93/time-app:test-latest
           ports:
             - containerPort: 5000
 
